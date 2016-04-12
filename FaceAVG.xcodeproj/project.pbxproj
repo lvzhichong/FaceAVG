@@ -210,8 +210,8 @@
 				A95583C81CBC80FC00170D28 /* AppDelegate.h */,
 				A95583C91CBC80FC00170D28 /* AppDelegate.m */,
 				A95583D41CBC816F00170D28 /* FaceAVG.pch */,
-				A95583D21CBC816F00170D28 /* FxConstants.m */,
 				A95583D31CBC816F00170D28 /* FxConstants.h */,
+				A95583D21CBC816F00170D28 /* FxConstants.m */,
 				A95583E91CBC820600170D28 /* LaunchScreen.storyboard */,
 				A95583D51CBC816F00170D28 /* Category */,
 			);
@@ -280,6 +280,7 @@
 		A95583961CBC787000170D28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Fx;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lv;
 				TargetAttributes = {
