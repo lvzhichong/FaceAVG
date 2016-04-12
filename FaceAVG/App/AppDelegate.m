@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+//
+#import "FxIndexViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 设置主显示页面
+    FxIndexViewController *indexView = [[FxIndexViewController alloc] init];
+    
+    self.window.rootViewController = indexView;
+    
+    // 显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
